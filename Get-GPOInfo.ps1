@@ -6,7 +6,7 @@ function Get-GPOInfo {
     Optionally, a .CSV can be created with a list of Group Policy Objects containing one or multiple configuration settings
     .DESCRIPTION
     This function retrieves all Group Policy Objects in a specified domain. Parameter switches can be used individually or in combination to shape the output reports.
-    The DomainName and ReportFolder parameters are mandatory.  See the parameter help for more information.
+    The DomainName and ReportFolder parameters are mandatory.  See the parameter help for more information. 
 
     .PARAMETER DomainName
     This is the Fully Qualified Domain Name (FQDN) of the domain to retrieved GPOs from 
